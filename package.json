@@ -10,5 +10,10 @@
   },
   "author": "",
   "license": "ISC",
-  "type": "module"  
+  "type": "module",
+  "dependencies": {
+    "@types/node": "^20.9.0",
+    "@types/request": "^2.48.12",
+    "request": "^2.88.2"
+  }
 }
