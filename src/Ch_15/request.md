@@ -2,5 +2,5 @@
 
 使用以下命令安装：
 ```shell
-npm install request --save
+npm install request @types/request --save
 ```

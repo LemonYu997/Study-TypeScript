@@ -1,0 +1,22 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    //配置检查规则，有三种设置
+    //off：关闭规则
+    //warn：打开规则，显示警告
+    //error：打开规则，显示错误
+    "rules": {
+        "@typescript-eslint/no-explicit-any": "error",
+        "prefer-const": "off",
+        "@typescript-eslint/no-inferrable-types": "off",
+        "no-console": "warn"
+    }
+}
