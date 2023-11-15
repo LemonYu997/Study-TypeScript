@@ -12,8 +12,11 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "@types/jquery": "^3.5.27",
     "@types/node": "^20.9.0",
     "@types/request": "^2.48.12",
+    "jquery": "^3.7.1",
+    "redis": "^4.6.10",
     "request": "^2.88.2"
   },
   "devDependencies": {
