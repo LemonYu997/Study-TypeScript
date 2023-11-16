@@ -28,7 +28,7 @@ function test() {
 }
 
 //在顶层使用await
-console.log(await hello()); //hello world
+// console.log(await hello()); //hello world
 
 
 //使用案例
@@ -58,11 +58,11 @@ async function GetAllApiResponse() {
     try {
         //在内部创建接收对象
         let allBodys: any = {};
-        allBodys.baiduBody = await GetHttpResponse("http://www.baidu.com");
+        // allBodys.baiduBody = await GetHttpResponse("http://www.baidu.com");
         console.log(allBodys.baiduBody);
-        allBodys.bingBody = await GetHttpResponse("http://www.bing.com");
+        // allBodys.bingBody = await GetHttpResponse("http://www.bing.com");
         console.log(allBodys.bingBody);
-        allBodys.sogouBody = await GetHttpResponse("http://www.sogou.com");
+        // allBodys.sogouBody = await GetHttpResponse("http://www.sogou.com");
         console.log(allBodys.sogouBody);
     } catch (err) {
         console.log("there is smothing wrong!");

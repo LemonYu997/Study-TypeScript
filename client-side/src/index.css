@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+  background: #333;
+}
+
+.App {
+  max-width: 600px;
+  margin: auto;
+}
+
+.App > h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+.Item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #444;
+  padding: 10px;
+  border-bottom: 1px solid #333333;
+}
+
+.Item--text h1 {
+  color: #f59609;
+}
+
+.Item--button button {
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.Item--button__delete {
+  color: #ce0404;
+  border: 1px solid #ce0404;
+}
+
+.Item--button__done {
+  border: 1px solid #05b873;
+  color: #05b873;
+  margin-right: 10px;
+}
+
+.hide--button {
+  display: none;
+}
+
+.done-task {
+  text-decoration: line-through;
+  color: #777 !important;
+}
+
+.Form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: #444;
+  margin-bottom: 15px;
+}
+
+.Form > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Form input {
+  background: #ffffff;
+  padding: 10px;
+  border: 1px solid #f59609;
+  border-radius: 10px;
+  display: block;
+  margin: 5px;
+}
+
+.Form button {
+  background: #f59609;
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+}
